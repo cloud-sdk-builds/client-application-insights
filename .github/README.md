@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-application-insights`](https://www.npmjs.com/package/@aws-sdk/client-application-insights/v/3.583.0).
+[`@aws-sdk/client-application-insights`](https://www.npmjs.com/package/@aws-sdk/client-application-insights/v/3.587.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.583.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.587.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Jj7ZxpeNT8CBhDyC1iP7S0F7nyywBOFs94gd4r2Ac8dUqs8n4Xj5EqTZCCQb4ETa
+sha384-3rgoiK5JhHgQyV8usxhu7OdSPkAl8KI1QztGDNg8m9ClTPMeYw9uylVYDHXg62La
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-application-insights": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.583.0/index.min.mjs"
+            "@aws-sdk/client-application-insights": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.587.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.583.0/index.min.mjs": "sha384-Jj7ZxpeNT8CBhDyC1iP7S0F7nyywBOFs94gd4r2Ac8dUqs8n4Xj5EqTZCCQb4ETa"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.587.0/index.min.mjs": "sha384-3rgoiK5JhHgQyV8usxhu7OdSPkAl8KI1QztGDNg8m9ClTPMeYw9uylVYDHXg62La"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-application-insights": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.583.0/index.min.mjs"
+                        "@aws-sdk/client-application-insights": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.587.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.583.0/index.min.mjs": "sha384-Jj7ZxpeNT8CBhDyC1iP7S0F7nyywBOFs94gd4r2Ac8dUqs8n4Xj5EqTZCCQb4ETa"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-insights@3.587.0/index.min.mjs": "sha384-3rgoiK5JhHgQyV8usxhu7OdSPkAl8KI1QztGDNg8m9ClTPMeYw9uylVYDHXg62La"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.583.0`)
+* Always pin to a specific version (`@3.587.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-application-insights/blob/refs/tags/3.583.0/LICENSE
+https://github.com/cloud-sdk-builds/client-application-insights/blob/refs/tags/3.587.0/LICENSE
 ```
 
 ---
